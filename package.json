@@ -1,0 +1,43 @@
+{
+  "name": "remix-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev -c \"node server.mjs\"",
+    "scrapbox": "tsx ./scripts/fetchScrapboxPages.ts",
+    "typecheck": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/masaki-koide/remix-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masaki-koide/remix-blog/issues"
+  },
+  "homepage": "https://github.com/masaki-koide/remix-blog#readme",
+  "dependencies": {
+    "@progfay/scrapbox-parser": "^8.1.0",
+    "@remix-run/express": "^2.7.2",
+    "@remix-run/node": "^2.7.2",
+    "@remix-run/react": "^2.7.2",
+    "express": "^4.18.2",
+    "isbot": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tiny-invariant": "^1.3.3"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.7.2",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
